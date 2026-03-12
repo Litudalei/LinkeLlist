@@ -3,5 +3,6 @@ public class Node {
     Node next;
     Node(int data) {
         this.data = data;
+        System.out.println("Node created");
     }
 }
